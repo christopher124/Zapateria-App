@@ -1,0 +1,77 @@
+
+<body>
+    <main>
+        <section>
+            <img src="../../../assets/img/banner.jpg" class="img-blur">
+        </section>
+        <br>
+        <br>
+        <section id="bienvenidos">
+            <h2> BIENVENIDOS A NUESTRA TIENDA </h2>
+            <p> Conoce nuestro blog, en el cual encontraras OFERTAS, PROMOCIONES, NOTICIAS y NOVEDADES de lo 
+                mas relevante de nuestra Tienda. 
+            </p>
+        </section>
+        <br>
+        <section id="blog">
+            <h3> LO ULTIMO DE NUESTRO BLOG </h3>
+            <br>
+            <div class="contenedor">
+                <article>
+                    <a ><img src="../../../assets/img/noticias.jpg">></a>
+                    <h4>Conoce las ultimas noticias</h4>
+                </article>
+                <article>
+                    <a href="ofertas.html"><img src="../../../assets/img/hotsale.jpg"></a>
+                    <h4>Ofertas</h4>
+                </article>
+                <article>
+                    <a href="novedades.html"><img src="/../../assets/img/novedades.jpg"></a>
+                    <h4>Conoce lo mas nuevo</h4>
+                </article>
+            </div>
+        </section>
+        <br>
+        <section id="info">
+            <h3> Conoce a los miembros de la empresa </h3>
+            <div class="contenedor">
+                <div class="info-creador">
+                    <img src="../../../assets/img/user.png" alt="">
+                    <h4>Pedro Quezada</h4>
+                </div>
+                <div class="info-creador">
+                    <img src="../../../assets/img/user2.png" alt="">
+                    <h4>Flavio Quezada</h4>
+                </div>
+                <div class="info-creador">
+                    <img src="../../../assets/img/user3.png" alt="">
+                    <h4>Antonio Perez</h4>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+		$(window).scroll(function(){
+			var scroll = $(window).scrollTop();
+			$('.img-blur').css({
+				filter: "blur(" + (scroll/10) + "px)"
+			})
+		})
+	</script>
+
+    <br>
+    <footer>
+        <div class="contenedor">
+            <div class="contacto">
+                <span class="icon-mail"> Z&C@gmail.com </span>
+                <span class="icon-phone"> 3617 2117 </span>
+            </div>
+            <div class="sociales">
+                <a class="icon-facebook-squared" href="https://www.facebook.com/Z-Co-111223797322671/"></a>
+                <a class="icon-whatsapp" href="https://wa.me/523320583796?text=Me%20interesa%20el%20producto%20que%20estás%20vendiendo%20en%20tu%20página%20web"></a>
+            </div>
+        </div>
+    </footer>
+</body>

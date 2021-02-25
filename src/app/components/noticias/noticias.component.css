@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	width: 102%;
+	height: 110px;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+.contenedor {
+	width: 98%;
+	margin: 0;
+}
+
+h1 {
+	float: left;
+}
+
+a{
+	text-decoration:none;
+	color: green;
+}
+
+header .contenedor {
+	display: table;
+}
+
+section {
+	width: 100vh;
+	margin-bottom: 25px;
+}
+
+.regresar img {
+	width: 40%;
+	max-width: 20px;
+}
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Assistant');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+section h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #B2141B;
+}
+
+section h2 {
+	font-family: 'Encode Sans Condensed';
+	color: #000;
+}
+
+section h3 {
+	font-size: 'Montserrat Alternates';
+	color: #000;
+}
+
+section h4 {
+	text-align : justify;
+	font-family: 'Assistant', sans-serif;
+}
+/*--- ESTILOS INDEX ----*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	width: 100%;
+	height: 50px;
+	background: RGB(240, 128, 128);
+	color: #fff;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+.contenedor {
+	width: 98%;
+	margin: auto;
+}
+
+h1 {
+	float: left;
+}
+
+header .contenedor {
+	display: table;
+}
+
+section {
+	width: 100%
+}
+
+#bienvenidos {
+	text-align: center;
+}
+
+.clientes h1 {
+	text-align: center;
+}
+
+footer .contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 25px;
+}
+
+.contacto{
+	font-size: 18px;
+}
+
+.sociales {
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+}
+
+.sociales a {
+	color: black;
+	text-decoration: none;
+}
+
+@media (min-width:768px){
+	.sociales {
+		width: auto;
+	}
+
+	footer .contenedor {
+		justify-content: space-between;
+	}
+}
+/*-------------------------------------*/
+/*--- ESTILOS (TABLA) VISITANOS ----*/
+#main-contenedor {
+	margin: 20px auto;
+	width: 1100px;
+}
+
+table {
+	background-color: white;
+	text-align: center;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+	border: none;
+	padding: 0;
+}
+
+#main-contenedor h2 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: red;
+	text-align: center;
+}
+
+#main-contenedor h3 {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: royalblue;
+	text-align: center;
+}
+/*-------------------------------------*/
+/*--- ESTILOS (TABLA) NOTICIAS ----*/
+#div-noticias table {
+	background-color: white;
+	border-collapse: collapse;
+	width: 100%;
+	height: 50%;	
+}
+
+#div-noticias td, th {
+	border: none;
+	padding: 25px;
+}
+
+#div-noticias h2 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: palevioletred;
+	font-size: 18px;
+	text-align: center;
+}
+
+#div-noticias h3 {
+	font-size: 15px;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+}
+/*-------------------------------------*/
+/*--- ESTILOS (TABLA) OFERTAS ----*/
+#div-ofertas table {
+	background-color: white;
+	border-collapse: collapse;
+	width: 100%;
+	height: 50%;	
+}
+
+#div-ofertas td, th {
+	border: none;
+	padding: 25px;
+}
+
+#div-ofertas h2 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: palevioletred;
+	font-size: 25px;
+	text-align: center;
+}
+
+#div-ofertas h3 {
+	font-size: 20px;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+#div-ofertas img{
+	height: 350px;
+	width: 350px; 
+}
+html {
+    background: #fff;
+    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    text-align : justify;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #000;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 2em 2em 4em;
+}
+
+
+header h1 {
+    color: #fff
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align : justify;
+    color: #222;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+h2 {
+    margin-top: 1.3em;
+}
+
+a {
+    color: #000;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+samp {
+    display: none;
+}
+
+
+
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}
+#menu-bar {
+	display: none;
+}
+
+header label{
+	float: right;
+	font-size: 28px;
+	margin: 6px 0;
+	cursor: pointer;
+}
+.menu {
+	position: absolute;
+	top: 50px;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background: RGB(240, 128, 128);
+	transition: all 0.5s;
+	transform: translateX(-100%);
+}
+
+.menu a {
+	display: block;
+	color: #fff;
+	height: 50px;
+	text-decoration: none;
+	padding: 15px;
+	border-bottom: 1px solid white;
+}
+.menu a:hover{
+	background: RGB(250, 128, 114,0.8);
+}
+
+#menu-bar:checked ~ .menu{
+	transform: translateX(0%);
+}
+
+@media (min-width:1024px) {
+	.menu {
+		position: static;
+		width: auto;
+		height: auto;
+		transform: translateX(0%);
+		float: right;
+		display: flex;
+	}
+
+	.menu a {
+		border: none;
+	}
+
+	header label {
+		display: none;
+	}
+}
+
+#blog h3, h4 {
+	text-align: center;
+}
+
+#blog .contenedor {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#blog article {
+	margin: 15px;
+}
+
+#blog img {
+	width: 100%;
+	max-width: 280px;
+	text-align: center;
+}
+
+#info {
+    background: RGB(240, 128, 128);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#info .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-creador {
+    margin: 20px;
+}
+
+.info-creador img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+}
+
+@media (min-width:480px){
+    .info-creador{
+        width: 40%;
+    }
+}
+
+@media (min-width:1024px){
+    .info-creador{
+        width: auto;
+    }
+}
